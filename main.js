@@ -1,3 +1,5 @@
+onload = () => navigator.serviceWorker.register('sw.js')
+
 const timer = document.querySelector('#timer')
 let seconds = 25 * 60
 let running = true
