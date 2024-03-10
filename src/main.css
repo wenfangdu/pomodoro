@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/roboto-mono.woff2') format('woff2');
+  /* don't show fallback font when loading roboto mono */
+  font-display: block;
+}
+
 body {
   background-color: #e74c3c;
 }
