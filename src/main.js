@@ -1,4 +1,6 @@
-onload = () => navigator.serviceWorker.register('sw.js')
+if (import.meta.env.PROD) {
+  onload = () => navigator.serviceWorker.register('sw.js')
+}
 
 const timer = document.querySelector('#timer')
 let seconds = 25 * 60
