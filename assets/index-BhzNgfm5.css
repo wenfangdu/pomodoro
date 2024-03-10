@@ -1,1 +1,0 @@
-@font-face{font-family:Roboto Mono;src:url(/pomodoro/roboto-mono.woff2) format("woff2");font-display:block}body{background-color:#e74c3c}#timer{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font:12rem Roboto Mono,monospace;color:#fff;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
