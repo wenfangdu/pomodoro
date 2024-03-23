@@ -1,0 +1,1 @@
+(function(){"use strict";let r=1500,e=!0;const i=t=>{if(!t)return clearInterval(l),"00:00";let n=Math.floor(t/60);return n=String(n).padStart(2,"0"),t=String(t%60).padStart(2,"0"),`${n}:${t}`},a=()=>{postMessage(i(r)),r=Math.max(r-1,0)};a();const l=setInterval(()=>e&&a(),1e3);onmessage=({data:t})=>t===" "&&(e=!e)})();
